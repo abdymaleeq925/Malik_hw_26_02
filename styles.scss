@@ -1,0 +1,347 @@
+* {
+    box-sizing: border;
+}
+
+body {
+    font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1200px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: Dancing Script, cursive;
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid #fff;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+.btn--primary {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+h3, .h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    background-color: #f74d55;
+    width: 100%;
+
+    .circle-1 {
+        position: absolute;
+        z-index: 8;
+        top: -17%;
+        left: 4%;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        background-color: #ef742b;
+    }
+
+    .circle-2 {
+        position: absolute;
+        z-index: 7;
+        top: -17%;
+        left: 2%;
+        height: 230px;
+        width: 230px;
+        border-radius: 50%;
+        background-color: #f74d55;
+    }
+
+    .circle-3 {
+        position: absolute;
+        z-index: 6;
+        top: -19%;
+        left: -1%;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: #2d5f3a;
+    }
+
+    .circle-4 {
+        position: absolute;
+        z-index: 5;
+        top: -22%;
+        left: -4%;
+        height: 370px;
+        width: 370px;
+        border-radius: 50%;
+        background-color: #82a2ad;
+    }
+
+    .circle-5 {
+        position: absolute;
+        z-index: 4;
+        top: -24%;
+        left: -7%;
+        height: 430px;
+        width: 430px;
+        border-radius: 50%;
+        background-color: #f74d55;
+    }
+
+    .circle-6 {
+        position: absolute;
+        z-index: 3;
+        top: -23%;
+        left: -9.5%;
+        height: 530px;
+        width: 530px;
+        border-radius: 50%;
+        background-color: #312b27;
+    }
+
+    .circle-7 {
+        position: absolute;
+        z-index: 2;
+        top: -17%;
+        left: -8%;
+        height: 580px;
+        width: 580px;
+        border-radius: 50%;
+        background-color: #fa636a;
+    }
+
+    .circle-2-1 {
+        position: absolute;
+        z-index: 6;
+        bottom: -3%;
+        right: -9%;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        background-color: #ef742b;
+    }
+
+    .circle-2-2 {
+        position: absolute;
+        z-index: 5;
+        bottom: -13%;
+        right: -11%;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: #f74d55;
+    }
+
+    .circle-2-3 {
+        position: absolute;
+        z-index: 4;
+        bottom: -28%;
+        right: -13%;
+        height: 340px;
+        width: 340px;
+        border-radius: 50%;
+        background-color: #2d5f3a;
+    }
+
+    .circle-2-4 {
+        position: absolute;
+        z-index: 3;
+        bottom: -45%;
+        right: -15%;
+        height: 430px;
+        width: 430px;
+        border-radius: 50%;
+        background-color: #312b27;
+    }
+
+    .circle-2-5 {
+        position: absolute;
+        z-index: 2;
+        bottom: -63%;
+        right: -18%;
+        height: 520px;
+        width: 520px;
+        border-radius: 50%;
+        background-color: #fa636a;
+    }
+
+    ul {
+        display: flex;
+        gap: 25px;
+    }
+
+    a, p {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__logo {
+        position: absoulte;
+        z-index: 10;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 100px 0;
+    }
+
+    &__cta {
+        padding: 70px 0 100px 620px;
+    }
+}
+
+.about {
+    .container {
+        max-width: 1024px;
+    }
+    
+    &__wrapper {
+        margin: 100px 100px;
+
+        .h2 {
+            color: #000;
+        }
+    }
+    .palette {
+        display: flex;
+        margin: 50px auto;
+
+        .square {
+            height: 40px;
+            width: 40px;
+        }
+
+        .sq-1 {
+            background-color: #ef742b;
+        }
+
+        .sq-2 {
+            background-color: #f74d55;
+        }
+
+        .sq-3 {
+            background-color: #2d5f3a;
+        }
+
+        .sq-4 {
+            background-color: #312b27;
+        }
+
+        .sq-5 {
+            background-color: #fa636a;
+        }
+    }
+}
+
+.services {
+    background-color: #2d5f3a;
+
+    .container {
+        width: 1024px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .block {
+            padding: 30px 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block-2 {
+            padding: 30px 30px;
+            background-color: #f74d55;
+        }
+
+        .block-title {
+            display: flex;
+            gap: 20px;
+        }
+
+        .h3, .text {
+            color: #fff;
+        }
+
+        .icon {
+            width: 30px;
+        }
+
+        .plus {
+            display: flex;
+            justify-content: end;
+        }
+    }
+
+}
+
+.music {
+    &__wrapper {
+        background-image: url(./img/background-image.jpg);
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bricks {
+        display: flex;
+
+        .rectangle {
+            width: 50px;
+            height: 10px;
+        }
+
+        .rc-1 {
+            background-color: #ef742b;
+        }
+
+        .rc-2 {
+            background-color: #f74d55;
+        }
+
+        .rc-3 {
+            background-color: #2d5f3a;
+        }
+
+        .rc-4 {
+            background-color: #312b27;
+        }
+
+        .rc-5 {
+            background-color: #fa636a;
+        }
+    }
+}
+
+.footer {
+    margin: 25px auto;
+    text-align: center;
+    color: #a5a5a5;
+}
